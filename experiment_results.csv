@@ -1,0 +1,12 @@
+experiment,hidden,lr,epochs,train_acc,test_acc,gap
+baseline,64,0.1,5,95.73,95.44,0.29
+learning rate,64,0.001,5,79.02,80.25,-1.23
+learning rate,64,0.01,5,90.21,90.82,-0.61
+learning rate,64,0.5,5,98.26,97.32,0.94
+learning rate,64,2.0,5,20.4,20.71,-0.31
+hidden size,4,0.1,5,85.04,84.97,0.07
+hidden size,16,0.1,5,93.69,93.41,0.28
+hidden size,128,0.1,5,96.11,95.77,0.34
+hidden size,256,0.1,5,96.35,95.88,0.47
+epochs,64,0.1,1,91.55,92.0,-0.45
+epochs,64,0.1,20,98.24,97.09,1.15
